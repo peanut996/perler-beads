@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(npm install)",
+      "WebFetch(domain:image.puzige.studio)",
+      "Bash(curl:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nrefactor: 移除原作者信息，更换品牌为浦子哥爱画图\n\n- 移除 Google AdSense 广告脚本\n- 移除 URL 重定向到原作者域名\n- 移除 busuanzi 访问统计脚本\n- 移除小红书、GitHub 链接和新版工作台 beta 链接\n- 移除捐赠功能（按钮、弹窗、二维码）\n- 更换品牌名称为\"浦子哥爱画图\"\n- 更换 Logo 为自定义 SVG\n- 更新 PWA 配置和网页标题\n- 更新打卡图水印\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
