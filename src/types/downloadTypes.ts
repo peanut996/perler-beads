@@ -7,4 +7,5 @@ export type GridDownloadOptions = {
   gridLineColor: string;
   includeStats: boolean;
   exportCsv: boolean; // 新增：是否同时导出CSV hex数据
+  onWebViewDetected?: (appName?: string) => void; // 新增：当在 WebView 环境中检测到下载时的回调
 };
